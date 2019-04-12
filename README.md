@@ -23,6 +23,7 @@ Vue.use(vueLotteryDraw)
       :lottery-prizenum="prizeNum"
       :lottery-prizeno="prizeNo"
       :prize-list="prizeListCom"
+      :lottery-class="lotteryClass"
       lottery-bg="./static/lotteryprobg.png"
       pointer-bg="./static/pointer.png"
   />

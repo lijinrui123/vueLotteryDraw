@@ -7,6 +7,7 @@
             :lottery-prizenum="prizeNum"
             :lottery-prizeno="prizeNo"
             :prize-list="prizeListCom"
+            :lottery-class="lotteryClass"
             lottery-bg="./static/lotteryprobg.png"
             pointer-bg="./static/pointer.png"
         />
@@ -18,6 +19,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
+      lotteryClass: 'ssss', // 覆盖组件内部样式
       lotteryStart: 0,
       prizeNo: 1,
       prizeNum: 8,
@@ -117,5 +119,8 @@ li {
 }
 a {
   color: #42b983;
+}
+.ssss >>>.prize-list{
+  color: blue
 }
 </style>
