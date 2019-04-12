@@ -1,6 +1,8 @@
 # vue-lottery-draw-git
 > vue-lottery-draw
+
 > 参考组件 vue-lottery 
+
 > 在基础上扩展奖品图片、名称、数量根据后台数据返回
 > 组件样式可配置
 ## Build Setup
@@ -13,7 +15,7 @@ Vue.use(vueLotteryDraw)
 ```
 
 ## 调用示例
-
+```
  <vue-lottery-draw
       @lotteryClick="lotteryClick"
       @lotteryDone="lotteryDone"
@@ -24,7 +26,7 @@ Vue.use(vueLotteryDraw)
       lottery-bg="./static/lotteryprobg.png"
       pointer-bg="./static/pointer.png"
   />
-
+```
 ### props说明
 
 | 参数名 | 参数类型 | 解释 | 是否必传 |
